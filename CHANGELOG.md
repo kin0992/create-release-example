@@ -1,5 +1,15 @@
 # create-release-example
 
+## 1.0.0
+
+### Major Changes
+
+- 50ee0f1: General Kenobi
+
+### Minor Changes
+
+- 316e7f4: Some fixes
+
 ## 0.3.0
 
 ### Minor Changes
