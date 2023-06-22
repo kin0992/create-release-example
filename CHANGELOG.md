@@ -1,5 +1,11 @@
 # create-release-example
 
+## 0.3.0
+
+### Minor Changes
+
+- d830942: Remove unused workflow
+
 ## 0.2.0
 
 ### Minor Changes
