@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "tsc",
     "version": "changeset version",
-    "release": "changeset tag",
+    "tag": "changeset tag",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
