@@ -1,6 +1,6 @@
 {
   "name": "create-release-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple project used to make an example on how to automate the release.",
   "main": "dist/index.js",
   "scripts": {
