@@ -19,4 +19,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           draft: false
+          body_path: CHANGELOG.md
           generate_release_notes: true
