@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - .changeset/**
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
+  changelog:
     name: Create CHANGELOG file
     runs-on: ubuntu-latest
     steps:
@@ -30,5 +32,8 @@ jobs:
       - name: Create Pull Request with Changelog
         id: changesets
         uses: changesets/action@v1
+        with:
+          commit: "Prepare next release"
+          title: "Bump version"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
