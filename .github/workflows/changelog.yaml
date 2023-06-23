@@ -10,7 +10,7 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
+  changelog:
     name: Create CHANGELOG file
     runs-on: ubuntu-latest
     steps:
