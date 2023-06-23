@@ -1,0 +1,6 @@
+core:
+  - src/**
+
+test: src/**/*.test.ts
+
+ci: .github/workflows
