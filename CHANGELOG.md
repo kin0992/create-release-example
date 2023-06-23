@@ -1,5 +1,11 @@
 # create-release-example
 
+## 1.2.1
+
+### Patch Changes
+
+- 0c95c0c: cleanup
+
 ## 1.2.0
 
 ### Minor Changes
