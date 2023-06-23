@@ -1,5 +1,11 @@
 # create-release-example
 
+## 2.0.0
+
+### Major Changes
+
+- 6251b83: Rename workflows and remove useless steps
+
 ## 1.2.1
 
 ### Patch Changes
