@@ -11,9 +11,6 @@ jobs:
   release:
     name: Create PR for release
     runs-on: ubuntu-latest
-    outputs:
-      published: ${{ steps.release.outputs.published }}
-      publishedPackages: ${{ steps.release.outputs.publishedPackages }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
