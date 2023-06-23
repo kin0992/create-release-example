@@ -33,6 +33,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          # Note: npm install after versioning is necessary to refresh lockfile
+          version: npm run version
           commit: "Update CHANGELOG and prepare next release"
           title: "Bump version"
         env:
