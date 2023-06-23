@@ -11,7 +11,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   changelog:
-    name: Create CHANGELOG file
+    name: Update CHANGELOG
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -29,11 +29,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create Pull Request with Changelog
+      - name: Create next release's PR
         id: changesets
         uses: changesets/action@v1
         with:
-          commit: "Prepare next release"
+          commit: "Update CHANGELOG and prepare next release"
           title: "Bump version"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
