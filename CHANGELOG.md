@@ -1,5 +1,11 @@
 # create-release-example
 
+## 4.2.0
+
+### Minor Changes
+
+- acb7bc0: Add labeler
+
 ## 4.1.1
 
 ### Patch Changes
