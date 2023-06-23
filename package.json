@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "compile": "tsc",
-    "version": "changeset version",
-    "tag": "changeset tag",
+    "version": "changeset version && npm ci",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
