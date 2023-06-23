@@ -1,5 +1,11 @@
 # create-release-example
 
+## 1.2.0
+
+### Minor Changes
+
+- 658bd51: Add workflow to generate GitHub release
+
 ## 1.1.0
 
 ### Minor Changes
