@@ -1,5 +1,11 @@
 # create-release-example
 
+## 1.1.0
+
+### Minor Changes
+
+- 9dded53: Do not log version
+
 ## 1.0.0
 
 ### Major Changes
