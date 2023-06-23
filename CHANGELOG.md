@@ -1,5 +1,15 @@
 # create-release-example
 
+## 4.0.0
+
+### Major Changes
+
+- 24a693c: Rollback to previous version
+
+### Patch Changes
+
+- a4e47c0: Add log
+
 ## 3.0.0
 
 ### Major Changes
