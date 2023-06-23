@@ -1,5 +1,11 @@
 # create-release-example
 
+## 3.0.0
+
+### Major Changes
+
+- faea233: Try release with changeset
+
 ## 2.0.0
 
 ### Major Changes
