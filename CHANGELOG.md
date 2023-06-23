@@ -1,5 +1,13 @@
 # create-release-example
 
+## 4.1.1
+
+### Patch Changes
+
+- be4baa5: Convert to install
+- 248bef0: Add version command
+- 7b71a46: Run npm ci on version script
+
 ## 4.1.0
 
 ### Minor Changes
