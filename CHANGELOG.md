@@ -1,5 +1,11 @@
 # create-release-example
 
+## 4.4.0
+
+### Minor Changes
+
+- 056d55a: Joshua told me
+
 ## 4.3.0
 
 ### Minor Changes
