@@ -30,12 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create Release Pull Request or Tag
+      - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
-        with:
-          version: npm run version
-          publish: npm run tag
-          commit: "Prepare next release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
