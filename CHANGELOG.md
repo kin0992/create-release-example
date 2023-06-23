@@ -1,5 +1,11 @@
 # create-release-example
 
+## 4.3.0
+
+### Minor Changes
+
+- f558eaf: Add test
+
 ## 4.2.0
 
 ### Minor Changes
