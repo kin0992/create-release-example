@@ -1,5 +1,11 @@
 # create-release-example
 
+## 4.1.0
+
+### Minor Changes
+
+- 4fcc592: Improve changelog workflow
+
 ## 4.0.0
 
 ### Major Changes
